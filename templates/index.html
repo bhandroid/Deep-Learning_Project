@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Translator</title>
+</head>
+<body>
+    <h1>Upload a Real Image</h1>
+    <form action="/translate" method="POST" enctype="multipart/form-data">
+        <input type="file" name="file" accept="image/*" required>
+        <button type="submit">Translate</button>
+    </form>
+</body>
+</html>
